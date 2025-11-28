@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo '🔹 Checking out source code...'
-                git branch: 'main', url: 'https://github.com/SrinayanaMandalapu/jenkins-pipeline-python.git'
+                git branch: 'main', url: 'https://github.com/SrinayanaMandalapu/package_manager_q2.git/'
             }
         }
 
